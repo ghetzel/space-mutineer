@@ -3,8 +3,8 @@ Space Mutineer
 
 A script that generates names consistent with the ones seen in S08E20 of _Mystery Science Theater 3000_, which was a commentary on the film _Space Mutiny_.
 
-== Usage
-
+Usage
+-----
 ```
 $ mutiny.rb [NUMBER]
 ```
