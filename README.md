@@ -12,6 +12,6 @@ $ mutiny.rb [NUMBER]
 
 See Also
 --------
-http://mst3k.wikia.com/wiki/Space_Mutiny
-
+* http://mst3k.wikia.com/wiki/Space_Mutiny
+* http://www.youtube.com/watch?v=RFHlJ2voJHY
 
