@@ -1,4 +1,12 @@
 #!/usr/bin/env ruby
+if [].respond_to?(:choice)
+  class Array
+    def sample
+      choice()
+    end
+  end
+end
+
 require 'yaml'
 
 vocabulary = YAML.load(File.read('vocabulary.yml'))
