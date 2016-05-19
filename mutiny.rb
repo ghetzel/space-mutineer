@@ -19,6 +19,8 @@ vocabulary = YAML.load(File.read('vocabulary.yml'))
         vocabulary['names']['last1']+vocabulary['names']['lastPost1']
       ).collect{|i|
         i.join
+      }.reject{|i|
+        i.downcase[0..(i.length/2)-1] == i.downcase[(i.length/2)..-1]
       }
     ) + vocabulary['names']['last2']).sample.split(' ').map(&:capitalize).join(' ')
 
