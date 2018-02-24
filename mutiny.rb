@@ -11,6 +11,9 @@ require 'yaml'
 
 vocabulary = YAML.load(File.read('vocabulary.yml'))
 
+# I mean, this is an almost pathological example of bad code...
+#   - Future Gary I, who regrets this approach.
+#
 (ARGV[0] || 1).to_i.times do
   first = vocabulary['names']['first'].sample.capitalize
   last = (
